@@ -15,7 +15,7 @@ To use this component, include the component as follows
 
 ```html
 <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
-<script src="./a-recorder.js"></script>
+<script src="https://rawgit.com/archilogic-com/aframe-recorder/master/a-recorder.js"></script>
 <a-scene>
   <a-entity recorder="recording.webm"></a-recorder>
   <!-- insert the rest of your a-scene -->
