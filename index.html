@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+  <script src="a-recorder.js"></script>
+</head>
+<body>
+  <a-scene>
+    <a-entity recorder="boring.webm"></a-entity>
+    <a-box position="0 1.6 -3" rotation="0 0 0" color="#4CC3D9">
+      <a-animation begin="start" attribute="rotation" to="0 0 360" dur="5000" easing="linear"></a-animation>
+    </a-box>
+    <a-sky color="#ECECEC"></a-sky>
+  </a-scene>
+  <script>
+    var recorder = document.querySelector('[recorder]')
+
+    document.querySelector('a-scene').addEventListener('renderstart', () => {
+      recorder.dispatchEvent(new CustomEvent('start'))
+      document.querySelector('a-animation').emit('start')
+    })
+
+    document.querySelector('a-animation').addEventListener('animationend', () => {
+      recorder.dispatchEvent(new CustomEvent('stop'))
+    })
+  </script>
+</body>
+</html>

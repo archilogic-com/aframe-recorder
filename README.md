@@ -22,15 +22,17 @@ To use this component, include the component as follows
 </a-scene>
 ```
 
-To start recording, you can either 
+To start recording, you can either
 
-* send a `start` event to the component or 
+* send a `start` event to the component or
 * use `document.querySelector([recorder]).components.recorder.start()`
 
 To end the recording, you can either
 
-* send a `stop` event to the component or 
+* send a `stop` event to the component or
 * use `document.querySelector([recorder]).components.recorder.stop()`
+
+See [the live example here](https://archilogic-com.github.io/aframe-recorder/).
 
 ## Deployment
 
@@ -49,7 +51,7 @@ If you are not sure if you have found a bug or have some larger scale changes in
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/archilogic-com/3dio-furniture-app/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/archilogic-com/3dio-furniture-app/tags).
 
 ## Authors
 

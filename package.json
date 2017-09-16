@@ -1,0 +1,23 @@
+{
+  "name": "a-recorder",
+  "version": "1.0.0",
+  "description": "Record A-Frame scenes with MediaRecorder",
+  "main": "a-recorder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archilogic-com/aframe-recorder.git"
+  },
+  "keywords": [
+    "A-Frame",
+    "MediaRecorder"
+  ],
+  "author": "Martin Splitt <martin@3d.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/archilogic-com/aframe-recorder/issues"
+  },
+  "homepage": "https://github.com/archilogic-com/aframe-recorder#readme"
+}
