@@ -25,12 +25,12 @@ To use this component, include the component as follows
 To start recording, you can either
 
 * send a `start` event to the component or
-* use `document.querySelector([recorder]).components.recorder.start()`
+* use `document.querySelector('[recorder]').components.recorder.start()`
 
 To end the recording, you can either
 
 * send a `stop` event to the component or
-* use `document.querySelector([recorder]).components.recorder.stop()`
+* use `document.querySelector('[recorder]').components.recorder.stop()`
 
 See [the live example here](https://archilogic-com.github.io/aframe-recorder/).
 
